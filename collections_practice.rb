@@ -9,4 +9,5 @@ def sort_array_desc(array)
     new_array << array.reverse[i]
     i += 1
   end
+  p new_array
 end
