@@ -5,5 +5,6 @@ end
 def sort_array_desc(array)
   new_array = []
   i = 0 
-  array.length.times
+  array.length do
+    new_array << array.
 end
