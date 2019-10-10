@@ -24,5 +24,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.select {|n| n[0].include?("a")==true}
+  array.select {|x| x[0].include?("a")==true}
 end
+
+def sum_array(array)
+  
