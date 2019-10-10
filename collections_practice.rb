@@ -7,5 +7,6 @@ def sort_array_desc(array)
   i = 0 
   array.length do
     new_array << array.reverse[i]
-    
+    i += 1
+  end
 end
