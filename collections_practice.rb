@@ -35,9 +35,10 @@ def add_s(array)
   array.collect do |x|
     if x != feet
       x + "s"
-      
+     else 
+       x
 end
-
+end
 
 
 
