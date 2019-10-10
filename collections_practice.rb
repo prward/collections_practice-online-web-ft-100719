@@ -3,11 +3,5 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  new_array = []
-  i = 0 
-  array.length do
-    new_array << array.reverse[i]
-    i += 1
-  end
-  p new_array
+ array.sort.reverse
 end
